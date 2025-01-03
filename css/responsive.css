@@ -1,0 +1,157 @@
+/************ Viewport less then or equal to 1130px ****************/
+
+@media only screen and (max-width: 1130px) {
+    
+
+    .slider-area .quote-text .quote-text-area h1 {
+        font-size: 1.7rem;
+    }
+    .quote_fle{
+        flex-direction: column;
+    }
+    /* .btn i{
+        display: none;
+    }
+    .reseaux{
+        
+        margin-right: 0;       
+    }
+    
+   .reseaux i{
+       font-size: 12px;
+   } */
+}
+
+/************** Viewport less then or equal to 767px ***************/
+
+@media only screen and (max-width: 767px) {
+    
+
+    .slider-area .quote-text .quote-text-area h1 {
+        font-size: 1.2rem;
+    }
+
+    .slider-area .quote-text .quote-text-area {
+        padding: 0 3rem;
+    }
+    
+   header{
+        height: 500px;
+    }
+     nav{
+        /* padding: 0px 200px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    .toggle{
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        left: 23px;
+        z-index: 3;
+    }
+    .ouvre{
+        display: block;
+    }
+    
+    .open .ouvre{
+        display: block;
+    }
+   
+    nav ul{
+        
+        position: absolute;
+        z-index: 2;
+        top: 75px;
+        left: -2px;
+        height: 73vh;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-right: 40px;
+        transform: translateX(-100%);
+        transition: 0.6s;
+        background: rgb(32 28 28 / 84%);
+        /* box-shadow: 0 8px 32px rgb(62 62 66 / 37%); */
+        backdrop-filter: blur( 10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        text-shadow: 3px 1px 4px #943041;
+    }
+
+    nav ul li{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0px;
+        line-height: 20px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    .open nav ul{
+        transform: translateX(0);
+    }
+    nav ul li a{
+        font-size: 35px;
+    }
+    .slog h1{
+        font-size: 40px;
+        width: 340px;
+        margin-top: 50px;
+    }
+
+    .slog p{
+        font-size: 16px;
+        width: 300px;
+    }
+    .slog button{
+        margin-top: 10px;
+    }
+}
+
+
+/************ Viewport less then or equal to 479px ****************/
+
+@media only screen and (max-width: 479px) {
+
+    .slog h1{
+        font-size: 30px;
+        width: 300px;
+    }
+    
+    .slider-area .slider-text .quot-icons {
+        flex-direction: column;
+    }
+
+    .slider-text .quot-icons .yel-bod {
+        width: 75%;
+    }
+
+    .slider-area .quote-text .quote-text-area {
+        padding: 0 1rem;
+    }
+
+    .slider-area .quote-text .quote-text-area h1 {
+        font-size: .9rem;
+    }
+
+    .slider-area .quote-text .quote-text-area h5 {
+        font-size: .7rem;
+    }
+
+    .capable .capable-1 .img-area {
+        padding-left: 0;
+    }
+    .foot .reseaux{
+        flex-direction: column;
+    }
+    .foot h2{
+        font-size: 22px;
+    }
+    .foot .reseaux{
+        font-size: 13px;
+    }
+    .copy p{
+        font-size: 12px;
+    }
+   }

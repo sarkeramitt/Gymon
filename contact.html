@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/19f5c5bb34.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <div class="navbar">
+    
+        <h2>LOGO</h2>
+        <div class="toggle">
+           <i class="fa-solid fa-xmark fermer"></i>
+           <i class="fa-solid fa-align-left ouvrir"></i>
+        </div>
+        <nav>
+           <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="about.html">About Us</a></li>
+               <li><a href="contact.html">Contact</a></li>
+           </ul>
+        </nav>
+        
+    </div>
+    <div class="tete">
+        <h1>Contact</h1>
+        <p>Home / Contact</p>
+    </div>
+    <section>
+        <div class="formulaire">
+            <h1>Get In Touch</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis convallis ligula. Quisque malesuada enim at neque finibus sollicitudin.</p>
+            <form action="">
+                <input type="text" placeholder="Name" class="info">
+                <input type="email" placeholder="E-mail" class="info">
+                <br>
+                <input type="text" placeholder="Message" class="message">
+                
+            </form>
+            <button>Send Now</button>
+        </div>
+    </section>
+
+
+
+    <div class="foote">
+        <h2>LOGO</h2>
+        <div class="reseau">
+            <i class="fa-brands fa-facebook-square"> Facebook</i>
+            <i class="fa-brands fa-twitter"> Twitter</i>
+            <i class="fa-brands fa-instagram"> Instagram</i>
+        </div>
+    </div>
+    <div class="copyy">
+        <p> &copy; Copyrights website.com @ 2024 </p>
+    </div>
+</div>
+<script>
+    let toggle = document.querySelector('.toggle');
+    let body = document.querySelector('body');
+
+    toggle.addEventListener('click', function(){
+        body.classList.toggle('open')
+    })
+</script>
+</body>
+</html>
